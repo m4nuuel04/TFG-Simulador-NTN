@@ -1,0 +1,349 @@
+app_id,app_name,service_id,service_name,replica_index,node_id
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,1,UAV-327
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,1,UAV-294
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,2,UAV-131
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,2,UAV-324
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,3,UAV-098
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,3,UAV-328
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,4,UAV-163
+APP-COM,Communication,COM-S01,Voice Communication Core,1,UAV-197
+APP-COM,Communication,COM-S01,Voice Communication Core,2,UAV-044
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,4,UAV-296
+APP-COM,Communication,COM-S01,Voice Communication Core,3,UAV-009
+APP-COM,Communication,COM-S01,Voice Communication Core,4,UAV-235
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,5,UAV-120
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,5,UAV-169
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,6,UAV-155
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,7,UAV-282
+APP-COM,Communication,COM-S01,Voice Communication Core,5,UAV-036
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,8,UAV-190
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,6,UAV-311
+APP-COM,Communication,COM-S01,Voice Communication Core,6,UAV-017
+APP-COM,Communication,COM-S01,Voice Communication Core,7,UAV-290
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,7,UAV-304
+APP-COM,Communication,COM-S01,Voice Communication Core,8,UAV-195
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,8,UAV-089
+APP-COM,Communication,COM-S01,Voice Communication Core,9,UAV-051
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,9,UAV-154
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,9,UAV-308
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,10,UAV-199
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,11,UAV-072
+APP-COM,Communication,COM-S01,Voice Communication Core,10,UAV-035
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,10,UAV-129
+APP-COM,Communication,COM-S01,Voice Communication Core,11,UAV-031
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,11,UAV-152
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,12,UAV-167
+APP-COM,Communication,COM-S01,Voice Communication Core,12,UAV-032
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,12,UAV-298
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,13,UAV-086
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,13,UAV-116
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,14,UAV-111
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,14,UAV-142
+APP-COM,Communication,COM-S01,Voice Communication Core,13,UAV-056
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,15,UAV-173
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,15,UAV-103
+APP-COM,Communication,COM-S01,Voice Communication Core,14,UAV-016
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,16,UAV-193
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,16,UAV-101
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,17,UAV-201
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,17,UAV-145
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,18,UAV-292
+APP-COM,Communication,COM-S01,Voice Communication Core,15,UAV-064
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,19,UAV-305
+APP-COM,Communication,COM-S01,Voice Communication Core,16,UAV-023
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,18,UAV-144
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,20,UAV-243
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,19,UAV-121
+APP-COM,Communication,COM-S01,Voice Communication Core,17,UAV-024
+APP-COM,Communication,COM-S01,Voice Communication Core,18,UAV-008
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,20,UAV-320
+APP-COM,Communication,COM-S01,Voice Communication Core,19,UAV-070
+APP-COM,Communication,COM-S01,Voice Communication Core,20,UAV-046
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,21,UAV-102
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,22,UAV-238
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,23,UAV-104
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,21,HAPS-002
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,22,UAV-267
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,23,UAV-266
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,24,UAV-218
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,25,UAV-270
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,26,UAV-157
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,27,UAV-268
+APP-COM,Communication,COM-S01,Voice Communication Core,21,UAV-288
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,24,UAV-303
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,25,UAV-087
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,28,UAV-149
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,29,UAV-216
+APP-COM,Communication,COM-S01,Voice Communication Core,22,UAV-236
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,26,UAV-075
+APP-COM,Communication,COM-S01,Voice Communication Core,23,UAV-283
+APP-COM,Communication,COM-S01,Voice Communication Core,24,UAV-202
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,30,UAV-314
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,27,UAV-041
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,31,UAV-137
+APP-COM,Communication,COM-S01,Voice Communication Core,25,UAV-289
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,28,UAV-091
+APP-COM,Communication,COM-S01,Voice Communication Core,26,UAV-228
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,32,UAV-261
+APP-COM,Communication,COM-S01,Voice Communication Core,27,UAV-004
+APP-COM,Communication,COM-S01,Voice Communication Core,28,UAV-057
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,29,UAV-094
+APP-COM,Communication,COM-S01,Voice Communication Core,29,UAV-196
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,33,UAV-178
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,30,UAV-053
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,31,UAV-082
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,32,UAV-092
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,33,UAV-310
+APP-COM,Communication,COM-S01,Voice Communication Core,30,UAV-022
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,34,UAV-297
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,35,UAV-097
+APP-COM,Communication,COM-S01,Voice Communication Core,31,UAV-029
+APP-COM,Communication,COM-S01,Voice Communication Core,32,UAV-058
+APP-COM,Communication,COM-S01,Voice Communication Core,33,UAV-237
+APP-COM,Communication,COM-S01,Voice Communication Core,34,UAV-071
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,34,UAV-175
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,35,UAV-213
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,36,UAV-067
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,36,UAV-176
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,37,UAV-060
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,38,UAV-083
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,37,UAV-217
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,38,UAV-132
+APP-COM,Communication,COM-S01,Voice Communication Core,35,UAV-063
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,39,UAV-118
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,39,UAV-171
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,40,UAV-307
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,40,UAV-160
+APP-COM,Communication,COM-S01,Voice Communication Core,36,UAV-006
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,41,UAV-207
+APP-COM,Communication,COM-S01,Voice Communication Core,37,UAV-005
+APP-COM,Communication,COM-S01,Voice Communication Core,38,UAV-241
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,42,UAV-088
+APP-COM,Communication,COM-S01,Voice Communication Core,39,UAV-007
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,41,UAV-316
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,42,UAV-159
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,43,UAV-215
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,43,UAV-259
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,44,UAV-068
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,44,UAV-185
+APP-COM,Communication,COM-S01,Voice Communication Core,40,UAV-003
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,45,UAV-084
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,46,UAV-203
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,45,UAV-332
+APP-COM,Communication,COM-S01,Voice Communication Core,41,UAV-229
+APP-COM,Communication,COM-S01,Voice Communication Core,42,UAV-028
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,47,UAV-113
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,46,UAV-130
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,47,UAV-257
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,48,UAV-168
+APP-COM,Communication,COM-S01,Voice Communication Core,43,UAV-220
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,49,UAV-323
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,50,UAV-274
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,51,UAV-166
+APP-COM,Communication,COM-S01,Voice Communication Core,44,UAV-240
+APP-COM,Communication,COM-S01,Voice Communication Core,45,UAV-205
+APP-COM,Communication,COM-S01,Voice Communication Core,46,UAV-245
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,52,UAV-180
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,48,UAV-040
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,53,UAV-330
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,49,UAV-119
+APP-COM,Communication,COM-S01,Voice Communication Core,47,UAV-221
+APP-COM,Communication,COM-S01,Voice Communication Core,48,UAV-030
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,54,UAV-265
+APP-COM,Communication,COM-S01,Voice Communication Core,49,UAV-015
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,55,UAV-122
+APP-COM,Communication,COM-S01,Voice Communication Core,50,UAV-019
+APP-COM,Communication,COM-S01,Voice Communication Core,51,UAV-018
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,50,UAV-244
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,56,UAV-156
+APP-COM,Communication,COM-S02,Push-to-Talk Group,1,UAV-012
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,51,UAV-059
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,52,UAV-076
+APP-COM,Communication,COM-S02,Push-to-Talk Group,2,UAV-219
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,57,UAV-186
+APP-COM,Communication,COM-S02,Push-to-Talk Group,3,UAV-002
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,53,UAV-262
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,54,UAV-080
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,58,UAV-151
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,55,UAV-242
+APP-COM,Communication,COM-S02,Push-to-Talk Group,4,UAV-198
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,56,UAV-258
+APP-COM,Communication,COM-S02,Push-to-Talk Group,5,UAV-039
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,57,UAV-093
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,59,UAV-210
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,58,UAV-048
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,60,UAV-153
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,61,UAV-177
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,62,UAV-161
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,59,UAV-074
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,60,UAV-209
+APP-COM,Communication,COM-S02,Push-to-Talk Group,6,UAV-025
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,63,UAV-127
+APP-COM,Communication,COM-S02,Push-to-Talk Group,7,UAV-043
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,61,UAV-126
+APP-COM,Communication,COM-S02,Push-to-Talk Group,8,UAV-225
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,62,HAPS-001
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,64,UAV-278
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,63,UAV-208
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,65,UAV-318
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,64,UAV-073
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,65,UAV-211
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,66,UAV-263
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,67,UAV-260
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,66,UAV-249
+APP-COM,Communication,COM-S02,Push-to-Talk Group,9,UAV-226
+APP-EME,Emergency,EME-S01,Accident Detection & Alert Ingestion,68,UAV-194
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,67,UAV-027
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,1,UAV-182
+APP-TEL,Telemetry,TEL-S01,GPS Ingestion,68,UAV-206
+APP-COM,Communication,COM-S02,Push-to-Talk Group,10,HAPS-003
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,2,UAV-139
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,1,UAV-062
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,2,UAV-291
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,3,UAV-275
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,3,UAV-252
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,4,UAV-095
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,4,UAV-281
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,5,UAV-248
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,5,UAV-150
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,6,UAV-106
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,7,UAV-302
+APP-COM,Communication,COM-S02,Push-to-Talk Group,11,UAV-200
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,6,UAV-276
+APP-EME,Emergency,EME-S02,Alert Routing & Prioritization,7,UAV-158
+APP-COM,Communication,COM-S02,Push-to-Talk Group,12,UAV-037
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,8,UAV-255
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,1,UAV-331
+APP-COM,Communication,COM-S02,Push-to-Talk Group,13,UAV-286
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,2,UAV-279
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,9,UAV-124
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,3,UAV-128
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,4,UAV-271
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,10,UAV-054
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,11,UAV-090
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,12,UAV-250
+APP-COM,Communication,COM-S02,Push-to-Talk Group,14,UAV-223
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,13,UAV-107
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,5,UAV-147
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,6,UAV-189
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,14,UAV-246
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,7,UAV-135
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,8,UAV-141
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,9,UAV-188
+APP-COM,Communication,COM-S02,Push-to-Talk Group,15,UAV-287
+APP-COM,Communication,COM-S02,Push-to-Talk Group,16,UAV-284
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,15,UAV-065
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,10,UAV-264
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,16,UAV-254
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,11,UAV-162
+APP-COM,Communication,COM-S02,Push-to-Talk Group,17,UAV-232
+APP-COM,Communication,COM-S02,Push-to-Talk Group,18,UAV-224
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,12,UAV-312
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,17,UAV-125
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,13,UAV-165
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,18,UAV-247
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,19,UAV-251
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,20,UAV-293
+APP-COM,Communication,COM-S02,Push-to-Talk Group,19,UAV-222
+APP-EME,Emergency,EME-S03,Multi-UAV Positioning,14,UAV-143
+APP-COM,Communication,COM-S02,Push-to-Talk Group,20,UAV-239
+APP-COM,Communication,COM-S02,Push-to-Talk Group,21,UAV-231
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,21,UAV-052
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,22,UAV-253
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,23,UAV-066
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,24,UAV-100
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,25,UAV-078
+APP-COM,Communication,COM-S02,Push-to-Talk Group,22,UAV-204
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,1,UAV-321
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,26,UAV-115
+APP-COM,Communication,COM-S02,Push-to-Talk Group,23,UAV-026
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,2,UAV-164
+APP-TEL,Telemetry,TEL-S02,Data Aggregation,27,UAV-309
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,3,UAV-136
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,4,UAV-273
+APP-TEL,Telemetry,TEL-S03,Hazard Detection Engine,1,UAV-234
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,5,UAV-269
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,6,UAV-329
+APP-TEL,Telemetry,TEL-S04,Historical Storage,1,UAV-085
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,1,UAV-034
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,7,UAV-134
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,2,UAV-105
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,8,UAV-179
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,9,UAV-187
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,3,UAV-081
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,10,UAV-184
+APP-COM,Communication,COM-S02,Push-to-Talk Group,24,UAV-230
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,4,UAV-301
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,5,UAV-295
+APP-COM,Communication,COM-S02,Push-to-Talk Group,25,UAV-049
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,11,UAV-317
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,12,UAV-313
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,13,UAV-146
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,6,UAV-114
+APP-COM,Communication,COM-S02,Push-to-Talk Group,26,UAV-021
+APP-COM,Communication,COM-S02,Push-to-Talk Group,27,UAV-033
+APP-TEL,Telemetry,TEL-S05,Weather Data Processing,7,UAV-096
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,14,UAV-183
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,15,UAV-148
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,16,UAV-280
+APP-COM,Communication,COM-S03,Data Messaging,1,UAV-038
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,17,UAV-191
+APP-COM,Communication,COM-S03,Data Messaging,2,UAV-061
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,18,UAV-272
+APP-COM,Communication,COM-S03,Data Messaging,3,UAV-233
+APP-COM,Communication,COM-S03,Data Messaging,4,UAV-020
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,19,UAV-133
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,20,UAV-174
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,21,UAV-181
+APP-COM,Communication,COM-S03,Data Messaging,5,UAV-047
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,22,UAV-192
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,23,UAV-319
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,24,UAV-326
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,25,UAV-170
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,26,UAV-108
+APP-COM,Communication,COM-S03,Data Messaging,6,UAV-077
+APP-EME,Emergency,EME-S04,VoIP / PTT Emergency,27,UAV-315
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,1,UAV-172
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,2,UAV-322
+APP-COM,Communication,COM-S03,Data Messaging,7,UAV-079
+APP-COM,Communication,COM-S03,Data Messaging,8,UAV-001
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,3,UAV-140
+APP-COM,Communication,COM-S03,Data Messaging,9,UAV-299
+APP-COM,Communication,COM-S03,Data Messaging,10,UAV-227
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,4,UAV-110
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,5,UAV-212
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,6,UAV-333
+APP-EME,Emergency,EME-S05,Vital Signs Streaming,7,UAV-099
+APP-COM,Communication,COM-S03,Data Messaging,11,UAV-285
+APP-COM,Communication,COM-S03,Data Messaging,12,UAV-011
+APP-COM,Communication,COM-S03,Data Messaging,13,UAV-306
+APP-COM,Communication,COM-S03,Data Messaging,14,UAV-256
+APP-COM,Communication,COM-S03,Data Messaging,15,UAV-117
+APP-COM,Communication,COM-S03,Data Messaging,16,UAV-109
+APP-COM,Communication,COM-S03,Data Messaging,17,UAV-045
+APP-COM,Communication,COM-S03,Data Messaging,18,UAV-013
+APP-COM,Communication,COM-S03,Data Messaging,19,UAV-014
+APP-COM,Communication,COM-S03,Data Messaging,20,UAV-214
+APP-COM,Communication,COM-S03,Data Messaging,21,UAV-300
+APP-COM,Communication,COM-S03,Data Messaging,22,UAV-042
+APP-COM,Communication,COM-S03,Data Messaging,23,UAV-277
+APP-COM,Communication,COM-S03,Data Messaging,24,UAV-050
+APP-COM,Communication,COM-S03,Data Messaging,25,UAV-069
+APP-COM,Communication,COM-S03,Data Messaging,26,UAV-112
+APP-COM,Communication,COM-S03,Data Messaging,27,UAV-123
+APP-COM,Communication,COM-S04,Bivouac Broadband,1,UAV-138
+APP-RET,Broadcasting,RET-S01,Video Encoding (H.265),1,UAV-010
+APP-RET,Broadcasting,RET-S01,Video Encoding (H.265),2,UAV-055
+APP-RET,Broadcasting,RET-S03,Stream Distributor,1,UAV-325
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,1,UAV-020
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,2,UAV-025
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,3,UAV-031
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,4,UAV-233
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,5,UAV-013
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,6,UAV-019
+APP-SYS,System,SYS-S03,Encryption & Anti-jamming,7,UAV-032
+APP-RET,Broadcasting,RET-S04,Low-latency Social Stream,1,UAV-020
+APP-RET,Broadcasting,RET-S04,Low-latency Social Stream,2,UAV-025
+APP-RET,Broadcasting,RET-S02,Multi-stream Aggregator,1,HAPS-001
+APP-SYS,System,SYS-S01,Network Orchestrator,1,UAV-020
+APP-SYS,System,SYS-S02,Network Monitoring,1,UAV-020
