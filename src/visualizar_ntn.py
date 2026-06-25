@@ -326,9 +326,9 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     coverage_artists = add_haps_coverage(ax, graph, haps_radius * coverage_scale, units=auto_units)
     uav_coverage_artists = add_uav_coverage(ax, graph, uav_radius * coverage_scale, units=auto_units)
 
-    ax.set_title("Etapa oficial única y red NTN")
-    ax.set_xlabel("x (km)" if auto_units == "km" else "x")
-    ax.set_ylabel("y (km)" if auto_units == "km" else "y")
+    ax.set_title("Etapa oficial única y red NTN", fontsize=22)
+    ax.set_xlabel("x (km)" if auto_units == "km" else "x", fontsize=18)
+    ax.set_ylabel("y (km)" if auto_units == "km" else "y", fontsize=18)
     ax.set_xlim(min_x - padding_x, max_x + padding_x)
     ax.set_ylim(min_y - padding_y, max_y + padding_y)
     ax.set_aspect("equal", adjustable="box")
@@ -364,45 +364,9 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     else:
         handles.append(plt.Line2D([], [], color="#e53e3e", linewidth=2.4, label="Etapa oficial más larga"))
 
-    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=12, title="Leyenda")
-
-    fig.subplots_adjust(left=0.08, right=0.78, bottom=0.08, top=0.93)
-
-    checkbox_ax = fig.add_axes([0.80, 0.04, 0.18, 0.16])
-    check_labels = ["Zonas", "Nodos NTN", "Cobertura HAPS", "Cobertura UAV", "Conexiones"]
-    checks = CheckButtons(checkbox_ax, check_labels, [True, True, True, True, True])
-    checkbox_ax.set_title("Capas", fontsize=14)
-
-    def set_group_visibility(artists: list, visible: bool) -> None:
-        for artist in artists:
-            artist.set_visible(visible)
-
-    def on_toggle(label: str) -> None:
-        if label == "Zonas":
-            new_state = not zone_artists[0].get_visible() if zone_artists else False
-            set_group_visibility(zone_artists, new_state)
-            for name, patch in zone_proxies:
-                patch.set_visible(new_state)
-        elif label == "Nodos NTN":
-            current = node_artists[0].get_visible() if node_artists else False
-            new_state = not current
-            set_group_visibility(node_artists, new_state)
-            set_group_visibility(node_label_artists, new_state)
-            set_group_visibility(edge_artists, new_state)
-        elif label == "Conexiones":
-            # toggle only edges
-            current = edge_artists[0].get_visible() if edge_artists else False
-            new_state = not current
-            set_group_visibility(edge_artists, new_state)
-        elif label == "Cobertura UAV":
-            new_state = not uav_coverage_artists[0].get_visible() if uav_coverage_artists else False
-            set_group_visibility(uav_coverage_artists, new_state)
-        elif label == "Cobertura HAPS":
-            new_state = not coverage_artists[0].get_visible() if coverage_artists else False
-            set_group_visibility(coverage_artists, new_state)
-        fig.canvas.draw_idle()
-
-    checks.on_clicked(on_toggle)
+    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=16, title="Leyenda")
+    
+    # Removed interactive CheckButtons for non-interactive output compatibility
 
     if no_show:
         # save to file if requested

@@ -272,15 +272,15 @@ def save_placement_plot(graph: NTNGraph, result: PlacementResult, output_path: P
     ax.set_facecolor("#f8fafc")
 
     ax.bar(range(len(top_nodes)), values, color=bar_colors, width=0.82, edgecolor="#334155", linewidth=0.4)
-    ax.set_title("Microservicios por nodo NTN")
-    ax.set_xlabel("Nodo")
-    ax.set_ylabel("Numero de microservicios")
+    ax.set_title("Microservicios por nodo NTN", fontsize=28)
+    ax.set_xlabel("Nodo", fontsize=24)
+    ax.set_ylabel("Numero de microservicios", fontsize=24)
     ax.set_xticks(range(len(top_nodes)))
-    ax.set_xticklabels(labels, rotation=90, fontsize=10)
+    ax.set_xticklabels(labels, rotation=90, fontsize=12)
     ax.grid(axis="y", linestyle="--", alpha=0.25)
 
     for index, value in enumerate(values):
-        ax.text(index, value + 0.05, str(value), ha="center", va="bottom", fontsize=8)
+        ax.text(index, value + 0.05, str(value), ha="center", va="bottom", fontsize=10)
 
     if len(top_nodes) < len(graph.nodes):
         ax.text(
