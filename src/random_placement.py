@@ -276,7 +276,7 @@ def save_placement_plot(graph: NTNGraph, result: PlacementResult, output_path: P
     ax.set_xlabel("Nodo", fontsize=32)
     ax.set_ylabel("Numero de microservicios", fontsize=32)
     ax.set_xticks(range(len(top_nodes)))
-    ax.set_xticklabels(labels, rotation=90, fontsize=16)
+    ax.set_xticklabels(labels, rotation=90, fontsize=10)
     ax.grid(axis="y", linestyle="--", alpha=0.25)
 
     for index, value in enumerate(values):
