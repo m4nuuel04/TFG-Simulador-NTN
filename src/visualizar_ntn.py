@@ -326,9 +326,9 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     coverage_artists = add_haps_coverage(ax, graph, haps_radius * coverage_scale, units=auto_units)
     uav_coverage_artists = add_uav_coverage(ax, graph, uav_radius * coverage_scale, units=auto_units)
 
-    ax.set_title("Etapa oficial única y red NTN", fontsize=22)
-    ax.set_xlabel("x (km)" if auto_units == "km" else "x", fontsize=18)
-    ax.set_ylabel("y (km)" if auto_units == "km" else "y", fontsize=18)
+    ax.set_title("Etapa oficial única y red NTN", fontsize=32)
+    ax.set_xlabel("x (km)" if auto_units == "km" else "x", fontsize=28)
+    ax.set_ylabel("y (km)" if auto_units == "km" else "y", fontsize=28)
     ax.set_xlim(min_x - padding_x, max_x + padding_x)
     ax.set_ylim(min_y - padding_y, max_y + padding_y)
     ax.set_aspect("equal", adjustable="box")
@@ -364,7 +364,7 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     else:
         handles.append(plt.Line2D([], [], color="#e53e3e", linewidth=2.4, label="Etapa oficial más larga"))
 
-    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=16, title="Leyenda")
+    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=20, title="Leyenda", title_fontsize=24)
     
     # Removed interactive CheckButtons for non-interactive output compatibility
 
