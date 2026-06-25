@@ -313,7 +313,7 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
         node_artists.append(scatter)
 
         if node_type in {"HAPS", "HAP"}:
-            label = ax.text(node.x + 0.08, node.y + 0.08, node.node_id, fontsize=6, ha="left", va="bottom")
+            label = ax.text(node.x + 0.08, node.y + 0.08, node.node_id, fontsize=10, ha="left", va="bottom")
             node_label_artists.append(label)
 
     # (Auto-detection moved up to draw buffer correctly)
@@ -335,8 +335,8 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     ax.set_anchor("C")
     ax.grid(True, linestyle="--", alpha=0.35)
 
-    drone_proxy = plt.Line2D([], [], marker="o", color="w", markerfacecolor="#d64545", markeredgecolor="black", markersize=7, label="UAV")
-    haps_proxy = plt.Line2D([], [], marker="o", color="w", markerfacecolor="#2f855a", markeredgecolor="black", markersize=7, label="HAPS")
+    drone_proxy = plt.Line2D([], [], marker="o", color="w", markerfacecolor="#d64545", markeredgecolor="black", markersize=12, label="UAV")
+    haps_proxy = plt.Line2D([], [], marker="o", color="w", markerfacecolor="#2f855a", markeredgecolor="black", markersize=12, label="HAPS")
     link_proxy = plt.Line2D([], [], color="#666666", linewidth=1.4, label="Conexión")
 
     # build legend entries
@@ -364,14 +364,14 @@ def build_view(no_show: bool = False, out_path: Path | None = None, units: str =
     else:
         handles.append(plt.Line2D([], [], color="#e53e3e", linewidth=2.4, label="Etapa oficial más larga"))
 
-    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=8, title="Leyenda")
+    fig.legend(handles=handles, loc="center left", bbox_to_anchor=(0.80, 0.5), frameon=True, fontsize=12, title="Leyenda")
 
     fig.subplots_adjust(left=0.08, right=0.78, bottom=0.08, top=0.93)
 
     checkbox_ax = fig.add_axes([0.80, 0.04, 0.18, 0.16])
     check_labels = ["Zonas", "Nodos NTN", "Cobertura HAPS", "Cobertura UAV", "Conexiones"]
     checks = CheckButtons(checkbox_ax, check_labels, [True, True, True, True, True])
-    checkbox_ax.set_title("Capas", fontsize=9)
+    checkbox_ax.set_title("Capas", fontsize=14)
 
     def set_group_visibility(artists: list, visible: bool) -> None:
         for artist in artists:
